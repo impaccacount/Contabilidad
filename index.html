@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/proyect-icon.ico" type="image/x-icon">
+    <meta property="og:image" content="assets/img/proyect-icon.png">
+    <meta name="description" content="hola"> <!--Descripción del proyect, esto se muestra en el embed que sale en discord por ejemplo.-->
+    <meta name="keywords" content="dinero, bob esponja, hola"> <!--Los tags van separados por comas, estos sirven para el algoritmo. Ejemplo: "accountant, money, pollo"-->
+    <meta content="#D4D4D4" data-react-helmet="true" name="theme-color"> <!--Color en hexadecimales que se muestra en distintos sitios, como en el embed de discord, twitter, etc-->
+    <title>Proyect Title</title> <!--Título de la página, aparece en la parte de arriba del navegador-->
+</head>
+<body>
+    <header class="main" id="home">
+
+    <nav class="nav_main">
+        <div class="container nav_container" id="navbar">
+            <div class="logo">
+                <h2 class="logo_name"><a href="#home" class="link">Proyect Name</a></h2> <!--Nombre del proyecto-->
+            </div>
+                <div class="links">
+                    <a href="#about" class="link">Sobre nosotros</a>
+                    <a href="#product" class="link">Producto</a>
+                    <a href="#contact" class="link">Contacto</a>
+                </div>
+        </div>
+    </nav>
+
+    <section class="container main_main">
+        <div class="main_textos">
+            <h1 class="title">Proyect name</h1> 
+            <p class="copy">Descripción corta.</p>
+            <a href="product/file.txt" download="file.txt" class="cta">Descarga</a>
+            <a href="#product" class="cta">Vídeo</a> <!--Botón opcional-->
+            <a href="#product" class="cta">Folleto</a> <!--Botón opcional-->
+        </div>
+        <img src="assets/img/proyect-icon.png" class="mockup">
+    </section>
+
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="subtitle">Sobre nosotros</h2>
+                <article class="container-reasons">
+                     <div class="reason">
+                         <img src="assets/img/svg/1.svg" class="reason_img">
+                         <div class="reason_text">
+                             <h3 class="reason_title">Equipo</h3>
+                             <p class="reason_copy">TotoBot takes care and ensures that everything it shows is completely understandable even for a dog.</p>
+                         </div>
+                     </div>
+                     <div class="reason">
+                         <img src="assets/img/svg/2.svg" class="reason_img">
+                         <div class="reason_text">
+                             <h3 class="reason_title">Misión</h3>
+                             <p class="reason_copy">TotoBot does not steal data or read messages, this make the bot totally safe.</p>
+                         </div>
+                     </div>
+                     <div class="reason">
+                         <img src="assets/img/svg/3.svg" class="reason_img">
+                         <div class="reason_text">
+                             <h3 class="reason_title">Seguridad</h3>
+                             <p class="reason_copy">TotoBot developer take the time to constantly add content to it.<br> Stay tuned on our support server!</p>
+                         </div>
+                     </div>
+                </article>
+            </div>
+     </section>
+
+     <div class="main" id="product">
+        <section class="container main_main">
+            <div class="main_textos">
+                <h1 class="title">Titulo</h1> 
+                <p class="copy">Descripción</p>
+            </div>
+        <img name="slide" class="slideshow">
+        </section>
+     </div>
+ 
+     <section class="about" id="contact">
+        <div class="container">
+            <h2 class="subtitle">Contactos</h2>
+            <p class="copy__section">Texto opcional, borrar si es necesario</p>
+            <article class="container-reasons">
+                 <div class="reason">
+                     <img src="assets/img/svg/mail.svg" class="reason_img">
+                     <div class="reason_text">
+                         <h3 class="reason_title">Correo</h3>
+                         <p class="reason_copy"> escribir aqui <a  onclick="copyText(`correo@correo.com`, `Correo copiado al portapepeles`)" class="text-link">correo@correo</a> o aquí </p>
+                     </div>
+                 </div>
+                 <div class="reason">
+                     <img src="assets/img/svg/instagram.svg" class="reason_img">
+                     <div class="reason_text">
+                         <h3 class="reason_title">Instagram</h3>
+                         <p class="reason_copy"><a href="instagram.html" class="text-link" target="_blank">Click aquí</a> Stay tuned on our support server!</p>
+                     </div>
+                 </div>
+            </article>
+        </div>
+ </section>
+    </main>
+    <script src="js/copy.js"></script>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
