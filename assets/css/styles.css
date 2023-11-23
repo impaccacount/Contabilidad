@@ -100,7 +100,7 @@ html{
 .link button{
     background-color: var(--button);
     border: none;
-    color: gold;
+    color: purple;
     padding: 0.6rem 1.2rem;
     border-radius: 14px;
     transition: 0.3s;
