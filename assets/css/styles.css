@@ -8,14 +8,14 @@
   --shadow: 0 8px 8px;
   --color_shadow: #00000033;
   --button: #70ff8b;
-  --about: rgb(192, 166, 0);
+  --about: #2ecc71;
   --nav_background: #7A7A7A;
-  --main_gradient_1: #0068FF;
-  --main_gradient_2: #0BBCEC;
-  --contact-gradient_1: purple;
-  --contact-gradient_2: pink;
-  --product-gradient_1: gray;
-  --product-gradient_2: gray;
+  --main_gradient_1: #3498db;
+  --main_gradient_2: #3498db;
+  --contact-gradient_1: #ecf0f1;
+  --contact-gradient_2: #ecf0f1;
+  --product-gradient_1: #e67e22;
+  --product-gradient_2: #e67e22;
 }
 
 *{
