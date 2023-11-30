@@ -7,15 +7,16 @@
   --gray:#ffffff80;
   --shadow: 0 8px 8px;
   --color_shadow: #00000033;
-  --button: #70ff8b;
-  --about: #2ecc71;
+  --button: #228B22;
+  --about-gradient_1: #002080;
+  --about-gradient_2: #510080;
   --nav_background: #7A7A7A;
-  --main_gradient_1: #3498db;
-  --main_gradient_2: #3498db;
-  --contact-gradient_1: #ecf0f1;
-  --contact-gradient_2: #ecf0f1;
-  --product-gradient_1: #e67e22;
-  --product-gradient_2: #e67e22;
+  --main_gradient_1: #005580;
+  --main_gradient_2: #002080;
+  --contact-gradient_1: purple;
+  --contact-gradient_2: pink;
+  --product-gradient_1: #510080;
+  --product-gradient_2: #800080;
 }
 
 *{
@@ -100,9 +101,9 @@ html{
 .link button{
     background-color: var(--button);
     border: none;
-    color: purple;
+    color: white;
     padding: 0.6rem 1.2rem;
-    border-radius: 14px;
+    border-radius: 26px;
     transition: 0.3s;
 }
 .link button:hover{
@@ -166,8 +167,9 @@ html{
 }
 
 .about{
-    background-color:  var(--about);
+    background: linear-gradient(180deg, var(--about-gradient_1) 0%, var(--about-gradient_2) 100%);
     text-align: center;
+    
 }
 .subtitle{
     font-size: 42px;
@@ -200,7 +202,7 @@ html{
     padding: 30px 30px;
     overflow: hidden;
     position: relative;
-    color: black;
+    color: white;
     text-align: center;
     margin-bottom: 60px;
 }
