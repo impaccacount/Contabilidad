@@ -29,6 +29,20 @@ body{
     font-family: MainFont;
 }
 
+.rating {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc;
+    display: inline-block;
+}
+
+.star:hover,
+.star.active {
+    color: #ffcc00;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -142,10 +156,9 @@ html{
 }
 
 .copy{
-    font-size: 30px;
-    color: var(--gray);
-    text-shadow: var(--shadow)  var(--color_shadow);
-    margin: 15px 0;
+    font-size: 23px;
+    color:#ffffff96;
+    margin: 16px 0;
 }
 
 .copy_active{
